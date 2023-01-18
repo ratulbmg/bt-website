@@ -5,7 +5,7 @@ import TableData from './tableData'
 const Table = () => {
   return (
     <table className='table-auto border border-black'>
-        <tr className='border border-black'>
+        <tr className='border border-black bg-blue-400'>
             <th className='text-[15px] border-r border-gray-500'>
               Name
             </th>

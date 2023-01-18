@@ -5,7 +5,7 @@ import user from "../assets/user.png"
 
 const TableData = () => {
   return (
-    <tr className='border-b border-gray-500'>
+    <tr className='border-b border-gray-500 odd:bg-blue-200 even:bg-blue-300'>
     <td className='border-r border-gray-500 py-5'>
         <div className='h-[80px] w-[80px] mx-auto mb-3'>
             <Image src={user} alt=""/>
