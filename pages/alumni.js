@@ -30,7 +30,7 @@ const Faculty=()=>{
       <div className="w-[90%] mx-auto flex flex-row justify-between mt-10 mb-20">
       <QuickLinks/>
         <div className="w-[45%]">
-          <p className="text-4xl font-semibold text-gray-500 text-center mb-12">Alumni Of Biotechnology</p>
+          <p className="text-4xl font-semibold text-gray-500 text-center mb-6">Alumni Of Biotechnology</p>
           <table className='table-auto border border-black mx-auto w-full'>
 
         <tr className='border border-black bg-blue-400'>

@@ -31,7 +31,7 @@ const Index=()=>{
         <div className="w-[40%] text-center">
           <p className="text-4xl font-semibold text-gray-500">Department Of Biotechnology</p>
           <p className="font-bold my-3">(NBA Accredited)</p>
-          <p className="text-xl my-3">(Under the School of Electronics, Computer and Informatics)</p>
+          <p className="text-xl my-3">(Under the School of Chemical and Biotechnology)</p>
           <a href="https://hithaldia.ac.in/" target={"_blank"} className="text-xl text-blue-600 my-3" rel="noreferrer">Haldia Institute Of Technology</a>
           <div className="w-2/3 mx-auto flex flex-row justify-between my-10">
             <div className="text-left">
