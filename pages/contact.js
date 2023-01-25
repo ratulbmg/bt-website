@@ -37,7 +37,7 @@ const Contact=()=>{
           <p className="text-[13px] my-3"><span className="font-bold">Email</span> : abc@xyz.com</p>
           <p className="text-[13px] my-3"><span className="font-bold">Tel</span> : 03224-250900 Extn:229</p>
           <p className="text-[13px] my-3"><span className="font-bold">Fax</span> : 03224-252800/ 253062</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.0435798460613!2d88.07181513791961!3d22.050878261951436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02f0bd9fd882f3%3A0x4082411651320d42!2sBiotechnology%20Department!5e0!3m2!1sen!2sin!4v1673988974579!5m2!1sen!2sin" width="550" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.0435798460613!2d88.07181513791961!3d22.050878261951436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02f0bd9fd882f3%3A0x4082411651320d42!2sBiotechnology%20Department!5e0!3m2!1sen!2sin!4v1673988974579!5m2!1sen!2sin" width="550" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <RightInfo/>
       </div>

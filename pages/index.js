@@ -2,6 +2,7 @@ import React from "react"
 import Image from "next/image"
 import logo from "../assets/logo.png"
 import bt from "../assets/bt.png"
+import bt_logo from "../assets/bt_logo.png"
 
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -23,7 +24,10 @@ const Index=()=>{
         </h1>
         <h4 className="text-3xl text-center poppins">Haldia Institute Of Technology</h4>
        </div>
-       <p className="text-red-700 font-bold cursor-pointer">Faculty Login</p>
+       <div className="w-[120px] h-[120px]">
+          <Image src={bt_logo} alt={"BT_Logo"}/>
+        </div>
+       
       </div>
       <Navbar/>
       <div className="w-[90%] mx-auto flex flex-row justify-between mt-10 mb-20">

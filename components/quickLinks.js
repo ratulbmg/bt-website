@@ -9,7 +9,7 @@ const QuickLinks = () => {
   const [showDADropdown,setShowDADropdown]=useState(false)
   
   return (
-    <div className="bg-[#1b3058] text-white border-t-4 border-yellow-300 w-1/4 h-min">
+    <div className="bg-green-700 text-white border-t-4 border-yellow-300 w-1/4 h-min">
           <p className="text-2xl py-4 pl-3 border-b border-white">Quick Links</p>
           <p className="text-lg p-1 border-b cursor-pointer border-white hover:text-yellow-300 duration-1000" onClick={()=>{router.push("/faculty")}}>Faculty</p>
           <p className="text-lg p-1 border-b cursor-pointer border-white hover:text-yellow-300 duration-1000" onClick={()=>{router.push("/teacherAndGeneralAssistance")}}>Technical and General Assistance</p>
@@ -18,8 +18,18 @@ const QuickLinks = () => {
             <i className="fa-solid fa-chevron-right text-base text-gray-600"></i>
             
             {showStudentsDropdown&&<div className='mt-3'><div className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
-              <p className='pl-5'>List</p>
-            </div></div>}
+              <p className='pl-5'>B.Tech</p>
+            </div>
+            <div className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
+              <p className='pl-5'>M.Tech</p>
+            </div>
+            <div className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
+              <p className='pl-5'>PhD</p>
+            </div>
+            
+            
+            
+            </div>}
             
           </p>
           <p className="text-lg p-1 border-b cursor-pointer border-white hover:text-yellow-300 duration-1000" onClick={()=>{router.push("/laboratory")}}>Laboratory</p>
