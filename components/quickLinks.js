@@ -17,18 +17,16 @@ const QuickLinks = () => {
             Students 
             <i className="fa-solid fa-chevron-right text-base text-gray-600"></i>
             
-            {showStudentsDropdown&&<div className='mt-3'><div className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
+            {showStudentsDropdown&&<div className='mt-3'><div onClick={()=>{router.push("/students/btech")}} className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
               <p className='pl-5'>B.Tech</p>
             </div>
-            <div className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
+            <div onClick={()=>{router.push("/students/mtech")}} className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
               <p className='pl-5'>M.Tech</p>
             </div>
-            <div className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
+            <div onClick={()=>{router.push("/students/phd")}} className='bg-[#fdebd0] text-black w-[95%] text-[15px] mx-auto mb-2'>
               <p className='pl-5'>PhD</p>
             </div>
-            
-            
-            
+          
             </div>}
             
           </p>
