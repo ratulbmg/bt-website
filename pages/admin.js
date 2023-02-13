@@ -32,19 +32,19 @@ return(
           Sign Up
         </h2>
         <div className="mb-4">
-          <label className="block font-medium text-gray-700 mb-2" for="username">
+          <label className="block font-medium text-gray-700 mb-2" htmlFor="username">
             Username
           </label>
           <input className="w-full border border-gray-400 p-2 rounded-lg" type="text" id="username" />
         </div>
         <div className="mb-4">
-          <label className="block font-medium text-gray-700 mb-2" for="email">
+          <label className="block font-medium text-gray-700 mb-2" htmlFor="email">
             Email
           </label>
           <input className="w-full border border-gray-400 p-2 rounded-lg" type="email" id="email" />
         </div>
         <div className="mb-4">
-          <label className="block font-medium text-gray-700 mb-2" for="password">
+          <label className="block font-medium text-gray-700 mb-2" htmlFor="password">
             Password
           </label>
           <input className="w-full border border-gray-400 p-2 rounded-lg" type="password" id="password" />

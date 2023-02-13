@@ -2,6 +2,7 @@ import React from 'react'
 import { Tabs } from 'antd';
 
 import ViewAndDeletePDFs from './admin/viewAndDeletePDFs';
+import PostPDFs from './admin/postPDFs';
 
 const AdminPanel = () => {
 
@@ -14,12 +15,7 @@ const AdminPanel = () => {
         },
         {
             label:"Post PDFs",
-            render:(
-                <div>
-                    Post PDFs
-                </div>
-            )
-
+            render:<PostPDFs/>
         }
     ]
 

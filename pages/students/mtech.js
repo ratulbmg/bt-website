@@ -22,7 +22,7 @@ const Mtech=()=>{
         var config = {
             method: 'get',
           maxBodyLength: Infinity,
-            url: 'https://plum-inquisitive-camel.cyclic.app/mtech',
+            url: 'https://plum-inquisitive-camel.cyclic.app/pdf/mtech',
             headers: { }
           };
           
@@ -32,7 +32,7 @@ const Mtech=()=>{
             setLoading(false)
           })
           .catch(function (error) {
-            console.log(error);
+            //console.log(error);
             setLoading(false)
           });
           
@@ -68,7 +68,7 @@ const Mtech=()=>{
             {
                 students.map((item,index)=>{
                     return(
-                        <li key={index}><a href={"https://plum-inquisitive-camel.cyclic.app/image/"+item.filename} className="text-left text-xl my-2" target="_blank" rel="noreferrer">Batch Of {item.year}</a></li>
+                        <li key={index}><a href={"https://plum-inquisitive-camel.cyclic.app/files/image/"+item.filename} className="text-left text-xl my-3 text-gray-500 hover:text-black duration-700" target="_blank" rel="noreferrer">Batch Of {item.year}</a></li>
 
                     )
                 })
